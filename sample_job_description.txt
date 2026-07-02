@@ -1,0 +1,22 @@
+Job Title: Senior Backend Developer
+Company: Apex Cloud Analytics
+Location: Remote (US)
+Employment Type: Full-Time
+
+Job Summary:
+Apex Cloud Analytics is looking for a Senior Backend Developer to join our core team. You will be responsible for designing and scaling asynchronous microservices, developing database schemas, and maintaining high performance REST APIs that handle millions of transactions weekly.
+
+Core Responsibilities:
+- Architect, build, and optimize backend microservices using Python (Flask or FastAPI).
+- Integrate Redis caching layers to reduce database latency.
+- Containerize application workloads using Docker and deploy into Kubernetes clusters.
+- Collaborate with frontend engineers to construct clean, reusable API contracts.
+- Design database architectures and manage PostgreSQL migrations.
+
+Required Skills & Experience:
+- 5+ years of software development experience (primarily with Python).
+- Deep experience in designing scalable RESTful APIs.
+- Production experience containerizing applications using Docker.
+- Advanced proficiency in SQL and PostgreSQL query tuning.
+- Knowledge of Git and CI/CD automation pipelines.
+- Experience with TypeScript, React, and frontend setups is a plus.

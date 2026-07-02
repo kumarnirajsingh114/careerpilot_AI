@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerPilot AI - Multi-Agent Career Growth Platform</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar Header -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo-wrapper">
+        <div class="logo-icon">C</div>
+        <span class="logo-text">CareerPilot AI</span>
+      </a>
+      
+      <!-- Protected Links (displayed dynamically) -->
+      <nav id="user-nav-links" class="flex gap-2">
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <a href="resume.html" class="nav-link">Resume Studio</a>
+        <a href="interview.html" class="nav-link">Interview Arena</a>
+        <a href="career.html" class="nav-link">Path Planner</a>
+        <a href="applications.html" class="nav-link">Kanban Tracker</a>
+      </nav>
+
+      <div class="nav-buttons">
+        <div id="guest-nav-btns" class="flex gap-4 items-center">
+          <a href="auth.html" class="nav-link">Log In</a>
+          <a href="auth.html?signup=true" class="btn btn-primary">Get Started</a>
+        </div>
+        <div id="user-nav-btns" style="display: none;">
+          <a href="#" id="logout-btn" class="btn btn-secondary">Log Out</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Content -->
+  <main style="text-align: center; display: flex; flex-direction: column; align-items: center; gap: 3rem; padding-top: 5rem;">
+    <div style="max-width: 800px; display: flex; flex-direction: column; gap: 1.5rem;">
+      <div class="glass" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.375rem 1rem; border-radius: 9999px; border-color: rgba(99,102,241,0.2); width: fit-content; margin: 0 auto; font-size: 11px; font-weight: 700; color: #818cf8;">
+        <span>✦</span> Google × Kaggle Agentic AI Capstone Application
+      </div>
+      
+      <h1 style="font-size: 3.5rem; line-height: 1.15; margin-top: 1rem;">
+        Navigate Your Career Development with <br>
+        <span style="background: linear-gradient(to right, #818cf8, #c084fc, #22d3ee); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+          Coordinated AI Agents
+        </span>
+      </h1>
+      
+      <p style="font-size: 1.15rem; max-w: 600px; margin: 0 auto; line-height: 1.6;">
+        An autonomous network of agents that parse resumes, calculate ATS keyword scores, compile custom cover letters, generate career roadmap milestones, and host mock interviews.
+      </p>
+
+      <div class="flex gap-4 justify-center mt-4">
+        <a href="auth.html?signup=true" class="btn btn-primary" style="padding: 0.85rem 2rem; font-size: 0.95rem;">Launch Your Agent Copilot</a>
+        <a href="#features" class="btn btn-secondary" style="padding: 0.85rem 2rem; font-size: 0.95rem;">Explore Architecture</a>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div id="features" style="width: 100%; border-top: 1px solid var(--border); padding-top: 5rem; margin-top: 3rem; display: flex; flex-direction: column; gap: 2rem;">
+      <h2 style="font-size: 2.25rem;">Multi-Agent Capabilities</h2>
+      <p style="font-size: 0.95rem; max-width: 500px; margin: 0 auto;">
+        Our backend hosts 8 specialized agents powered by Gemini API prompts cooperating seamlessly to optimize your career path.
+      </p>
+
+      <div style="display: grid; grid-template-cols: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; text-align: left; margin-top: 2rem;">
+        <div class="glass glass-hover p-6 flex flex-col gap-4">
+          <div style="font-size: 1.5rem;">🎯</div>
+          <h3 style="font-size: 1.25rem;">Resume Optimization Studio</h3>
+          <p style="font-size: 0.875rem;">Uses Resume Analysis, ATS Match Score, and Resume Improvement Agents to verify required job keywords and enhance bullet points.</p>
+        </div>
+        <div class="glass glass-hover p-6 flex flex-col gap-4">
+          <div style="font-size: 1.5rem;">🧭</div>
+          <h3 style="font-size: 1.25rem;">Transition Path Planner</h3>
+          <p style="font-size: 0.875rem;">Uses the Career Recommendation Agent to construct milestones to pass from your current job to a target role, matching course names.</p>
+        </div>
+        <div class="glass glass-hover p-6 flex flex-col gap-4">
+          <div style="font-size: 1.5rem;">💬</div>
+          <h3 style="font-size: 1.25rem;">Mock Interview Coach</h3>
+          <p style="font-size: 0.875rem;">Uses the Interview Preparation Agent to generate dynamic role questions and evaluate STAR formats, giving real-time feedback scores.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
