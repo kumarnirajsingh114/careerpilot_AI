@@ -41,7 +41,7 @@ CareerPilot AI combines multiple specialized AI agents into a unified platform t
 ✅ Application Tracking
 
 ---
-
+<img width="1304" height="598" alt="Image" src="https://github.com/user-attachments/assets/cfaa1d66-113f-4611-b002-4c158b6846f0" />
 ## 🧠 Multi-Agent Architecture
 
 ```mermaid
