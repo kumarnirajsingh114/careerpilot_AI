@@ -1,5 +1,5 @@
 # 🚀 CareerPilot AI
-
+<img width="539" height="547" alt="Image" src="https://github.com/user-attachments/assets/d7cf9256-0d72-4db1-9d75-10e22a969402" />
 ### Multi-Agent AI Career Growth Platform
 
 > An intelligent career optimization platform built for the Google × Kaggle Agentic AI Capstone, powered by a coordinated network of AI agents that help users analyze resumes, improve ATS scores, discover career paths, prepare for interviews, and track job applications.
